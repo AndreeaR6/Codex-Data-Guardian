@@ -12,7 +12,7 @@ User-facing promise:
 
 Public repo target:
 
-https://github.com/Andreea2400/Codex-Data-Guardian
+https://github.com/AndreeaR6/Codex-Data-Guardian
 
 ## What This Plugin Does
 
@@ -38,11 +38,14 @@ https://x.com/lifeof_jer/status/2048103471019434248
 
 The lesson is not vendor drama. The lesson is simple: if an AI agent can access production systems, delete data, touch backups, send messages, publish content, or run live actions, the environment needs strong permission boundaries and explicit human approval.
 
+Production data and backups should not be reachable by an AI agent without strict human approval gates, isolated backups, and a tested rollback path.
+
 ## Core Rules
 
 - First verify, then touch.
 - SafetyFirst is the default.
 - Capability is not consent.
+- User freeze overrides capability and prior permission.
 - Keep access limited to the minimum needed.
 - No access to a user's computer, files, Git, GitHub, Gmail, Drive, Calendar, accounts, APIs, infrastructure, databases, or connected services unless the user explicitly grants access for the task.
 - No data deletion without explicit user approval.
@@ -56,12 +59,28 @@ The lesson is not vendor drama. The lesson is simple: if an AI agent can access 
 - Test, test again, and verify the result before and after changes.
 - Do not rush risky work.
 
+## User Freeze / Stop Command
+
+If the user says `freeze`, `stop`, `halt`, `pause`, `stop data`, `oprire date`, or asks the agent to stop operations, the agent must stop immediately, even if it has technical access or previous permission.
+
+During a freeze:
+
+- stop all non-read-only operations;
+- do not delete, overwrite, send, publish, import, deploy, purchase, push, or run live actions;
+- do not start new tool calls that can change state;
+- preserve current state and report what was already done;
+- ask the user how to proceed.
+
+Work may resume only after the user gives explicit approval to continue.
+
 ## Learn The Workflow
 
 See the root files:
 
 - `SAFETYFIRST.md`
 - `USAGE.md`
+
+These rules are portable: use them across machines, locations, teams, and AI agents as a shared safety baseline.
 
 This is an independent community rule set for safer AI-agent usage. It is not an official policy from OpenAI, Anthropic, Google, GitHub, Cursor, Replit, Devin, or any other vendor.
 

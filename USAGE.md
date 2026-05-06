@@ -14,13 +14,19 @@ Use this rule:
 
 **Test, test, test first. Do not rush.**
 
+**If the user says freeze or stop, stop all operations, even if access was already granted.**
+
 ## Why This Matters
 
 Public cautionary threads about AI agents affecting production systems show the same practical lesson: do not give an agent live destructive access without strong permission boundaries, backups outside the agent's reach, and explicit human approval.
 
+Production data and backups should not be reachable by an AI agent without strict human approval gates, isolated backups, and a tested rollback path.
+
 Example:
 
 https://x.com/lifeof_jer/status/2048103471019434248
+
+Use this repository as a portable safety baseline across machines, locations, teams, and AI agents.
 
 ## Good Prompts
 
@@ -87,6 +93,22 @@ Recommended confirmation style:
 
 ```text
 I confirm this exact action: [describe the action].
+```
+
+## Freeze / Stop Prompts
+
+Use these when you need the agent to stop immediately:
+
+```text
+Freeze. Stop all operations now.
+```
+
+```text
+Stop data operations. Do not continue, even if you have access.
+```
+
+```text
+Pause all writes, sends, deletes, publishes, deploys, pushes, and live actions. Report current status only.
 ```
 
 ## After Changes

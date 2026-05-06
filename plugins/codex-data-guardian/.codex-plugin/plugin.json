@@ -1,13 +1,13 @@
 {
   "name": "codex-data-guardian",
   "version": "0.1.0",
-  "description": "SafetyFirst rules for AI agents, packaged as a Codex plugin: limited access, explicit approval, no unapproved deletion, verify even 100 times if needed, testing, and no live changes without consent.",
+  "description": "SafetyFirst rules for AI agents, packaged as a Codex plugin: limited access, explicit approval, user freeze stops operations, no unapproved deletion, verification, testing, and no live changes without consent.",
   "author": {
     "name": "Andreea",
-    "url": "https://github.com/Andreea2400"
+    "url": "https://github.com/AndreeaR6"
   },
-  "homepage": "https://github.com/Andreea2400/Codex-Data-Guardian",
-  "repository": "https://github.com/Andreea2400/Codex-Data-Guardian",
+  "homepage": "https://github.com/AndreeaR6/Codex-Data-Guardian",
+  "repository": "https://github.com/AndreeaR6/Codex-Data-Guardian",
   "license": "MIT",
   "keywords": [
     "codex",
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "Codex Data Guardian",
     "shortDescription": "SafetyFirst for AI agents.",
-    "longDescription": "SafetyFirst rules for AI agents, packaged as a Codex plugin: nothing happens without explicit user approval, including access, changes, deletion, sending, publishing, or live actions. Reminds users that an AI agent is a program running in an environment, must be used with careful permission boundaries, should verify even 100 times if risk requires it, and should test, test, test first without rushing.",
+    "longDescription": "SafetyFirst rules for AI agents, packaged as a Codex plugin: nothing happens without explicit user approval, including access, changes, deletion, sending, publishing, or live actions. If the user says freeze or stop, the agent stops operations even if access was already granted. Reminds users that an AI agent is a program running in an environment, that production data and backups need strict human approval gates, isolated backups, and rollback, and that risky work should be tested without rushing.",
     "developerName": "Andreea",
     "category": "Productivity",
     "capabilities": [
@@ -31,11 +31,12 @@
       "Review",
       "AI Agents"
     ],
-    "websiteURL": "https://github.com/Andreea2400/Codex-Data-Guardian",
-    "privacyPolicyURL": "https://github.com/Andreea2400/Codex-Data-Guardian",
-    "termsOfServiceURL": "https://github.com/Andreea2400/Codex-Data-Guardian",
+    "websiteURL": "https://github.com/AndreeaR6/Codex-Data-Guardian",
+    "privacyPolicyURL": "https://github.com/AndreeaR6/Codex-Data-Guardian",
+    "termsOfServiceURL": "https://github.com/AndreeaR6/Codex-Data-Guardian",
     "defaultPrompt": [
       "SafetyFirst review.",
+      "Freeze. Stop all operations now.",
       "Check this safely first.",
       "Review before I run it.",
       "Create a rollback plan."

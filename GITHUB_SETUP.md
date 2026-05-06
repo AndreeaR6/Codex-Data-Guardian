@@ -2,13 +2,13 @@
 
 Target public repository:
 
-https://github.com/Andreea2400/Codex-Data-Guardian
+https://github.com/AndreeaR6/Codex-Data-Guardian
 
 ## Current Status
 
 The target public repository exists:
 
-https://github.com/Andreea2400/Codex-Data-Guardian
+https://github.com/AndreeaR6/Codex-Data-Guardian
 
 Do not publish this package into another repository with a different name.
 
@@ -33,7 +33,7 @@ Do not publish or upload private continuity files.
    add the remote:
 
    ```powershell
-   git remote add origin https://github.com/Andreea2400/Codex-Data-Guardian.git
+   git remote add origin https://github.com/AndreeaR6/Codex-Data-Guardian.git
    ```
 
 4. Verify the remote:
@@ -69,5 +69,5 @@ Expected result:
 Use an explicit confirmation before publishing:
 
 ```text
-I confirm: publish only codex-data-guardian to the public repository Andreea2400/Codex-Data-Guardian.
+I confirm: publish only codex-data-guardian to the public repository AndreeaR6/Codex-Data-Guardian.
 ```
