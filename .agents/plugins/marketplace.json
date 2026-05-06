@@ -1,0 +1,20 @@
+{
+  "name": "codex-data-guardian",
+  "interface": {
+    "displayName": "SafetyFirst AI Agents"
+  },
+  "plugins": [
+    {
+      "name": "codex-data-guardian",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-data-guardian"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -6,7 +6,9 @@ https://github.com/Andreea2400/Codex-Data-Guardian
 
 ## Current Status
 
-The local package is ready, but the target repository was not accessible through the GitHub connector during verification.
+The target public repository exists:
+
+https://github.com/Andreea2400/Codex-Data-Guardian
 
 Do not publish this package into another repository with a different name.
 

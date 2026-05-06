@@ -1,6 +1,8 @@
-# How To Use Codex Safely
+# How To Use AI Agents Safely
 
-Codex is most useful when it has clear goals, limited access, and explicit permission boundaries.
+AI agents are most useful when they have clear goals, limited access, and explicit permission boundaries.
+
+This applies to ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
 
 Use this rule:
 
@@ -8,9 +10,21 @@ Use this rule:
 
 **Nothing happens without explicit user approval: no access, no changes, no deletion, no sending, no publishing, no live actions.**
 
+**Verify once, twice, or one hundred times if risk requires it. Test, test again, and verify the result.**
+
+**Test, test, test first. Do not rush.**
+
+## Why This Matters
+
+Public cautionary threads about AI agents affecting production systems show the same practical lesson: do not give an agent live destructive access without strong permission boundaries, backups outside the agent's reach, and explicit human approval.
+
+Example:
+
+https://x.com/lifeof_jer/status/2048103471019434248
+
 ## Good Prompts
 
-Use prompts that ask Codex to inspect before changing anything:
+Use prompts that ask the agent to inspect before changing anything:
 
 ```text
 Review this command safely before I run it. Explain what it can change and what I should verify first.
@@ -56,7 +70,7 @@ First inspect the repository, summarize the planned change, and ask before editi
 
 ## Before Live Actions
 
-Ask Codex to pause before anything that can affect real systems:
+Ask the AI agent to pause before anything that can affect real systems:
 
 - sending email;
 - publishing a page;

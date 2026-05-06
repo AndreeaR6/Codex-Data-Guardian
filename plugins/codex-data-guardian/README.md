@@ -1,6 +1,6 @@
-# SafetyFirst For AI Agents
+# Codex Data Guardian
 
-Public safety rules for AI agents and AI-assisted tools.
+Codex plugin implementation for the public SafetyFirst rule set.
 
 Tagline:
 
@@ -14,15 +14,11 @@ Public repo target:
 
 https://github.com/Andreea2400/Codex-Data-Guardian
 
-## What This Is
+## What This Plugin Does
 
-SafetyFirst is a public rule set for AI agents and AI-assisted tools, including ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
+This is the Codex plugin implementation of a broader SafetyFirst rule set for AI agents and AI-assisted tools, including ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
 
-This repository includes a concrete Codex plugin implementation:
-
-`plugins/codex-data-guardian`
-
-The rules are meant for every AI agent. The plugin format included here is for Codex.
+An AI agent is still a program running in an environment. Be careful how it is used, what it can access, and where it is allowed to act.
 
 ## Core Promise
 
@@ -60,24 +56,17 @@ The lesson is not vendor drama. The lesson is simple: if an AI agent can access 
 - Test, test again, and verify the result before and after changes.
 - Do not rush risky work.
 
-## Knowledge Base
+## Learn The Workflow
 
-Start here:
+See the root files:
 
-`SAFETYFIRST.md`
-
-Then see:
-
-`USAGE.md`
+- `SAFETYFIRST.md`
+- `USAGE.md`
 
 This is an independent community rule set for safer AI-agent usage. It is not an official policy from OpenAI, Anthropic, Google, GitHub, Cursor, Replit, Devin, or any other vendor.
 
-## Codex Plugin
+## Skill
 
-The Codex plugin implementation is here:
+See:
 
-`plugins/codex-data-guardian/`
-
-The Codex skill is here:
-
-`plugins/codex-data-guardian/skills/data-guardian/SKILL.md`
+`skills/data-guardian/SKILL.md`
