@@ -10,6 +10,8 @@ Use this rule:
 
 **Nothing happens without explicit user approval: no access, no changes, no deletion, no sending, no publishing, no live actions.**
 
+**Non-destructive by default: prefer read-only, reversible, additive changes. No deleting, overwriting, disabling, removing, publishing, or live-impact action without explicit user approval.**
+
 **Verify once, twice, or one hundred times if risk requires it. Test, test again, and verify the result.**
 
 **Test, test, test first. Do not rush.**
@@ -48,6 +50,7 @@ SafetyFirst: first verify, then touch.
 Nothing happens without explicit user approval:
 no access, no changes, no deletion, no sending,
 no publishing, no live actions.
+Non-destructive by default.
 If I say freeze or stop, stop all operations immediately.
 Test, test, test first. Do not rush.
 ```
@@ -109,6 +112,12 @@ Better:
 
 ```text
 First inspect the repository, summarize the planned change, and ask before editing, deleting, pushing, or publishing.
+```
+
+Best:
+
+```text
+Work non-destructively by default. Prefer read-only checks, previews, additive changes, and rollback options. Ask before deleting, overwriting, disabling, removing, publishing, or touching live systems.
 ```
 
 ## Before Live Actions

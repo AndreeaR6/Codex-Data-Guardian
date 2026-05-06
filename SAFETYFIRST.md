@@ -20,6 +20,8 @@ It is meant for:
 
 **Nothing happens without explicit user approval: no access, no changes, no deletion, no sending, no publishing, no live actions.**
 
+**Non-destructive by default: prefer read-only, reversible, additive changes. No deleting, overwriting, disabling, removing, publishing, or live-impact action without explicit user approval.**
+
 **Test, test, test first. Do not rush.**
 
 ## What We Want To Avoid
@@ -38,25 +40,28 @@ Production data and backups should not be reachable by an AI agent without stric
 
 1. Read-only first.
 2. Least access always.
-3. Capability is not consent.
-4. User freeze overrides capability and prior permission.
-5. No access without explicit user approval.
-6. No changes without explicit user approval.
-7. No deletion without explicit user approval.
-8. No sending without explicit user approval.
-9. No publishing without explicit user approval.
-10. No live actions without explicit user approval.
-11. No production access by default.
-12. No secrets exposure.
-13. No destructive commands without explicit user approval.
-14. No imports, deploys, purchases, account changes, or database changes without explicit user approval.
-15. Use previews, dry-runs, diffs, and read-only validation whenever possible.
-16. Prepare backups or rollback plans before risky actions.
-17. Keep backups outside the AI agent's reach.
-18. Verify once, twice, or one hundred times if risk requires it.
-19. Test, test again, and verify the result before and after every risky change.
-20. Do not rush risky work.
-21. Report what changed, what was tested, what was not tested, and what risk remains.
+3. Non-destructive by default.
+4. Capability is not consent.
+5. User freeze overrides capability and prior permission.
+6. No access without explicit user approval.
+7. No changes without explicit user approval.
+8. No deletion without explicit user approval.
+9. No sending without explicit user approval.
+10. No publishing without explicit user approval.
+11. No live actions without explicit user approval.
+12. No production access by default.
+13. No secrets exposure.
+14. No destructive commands without explicit user approval.
+15. No deleting, overwriting, disabling, removing, publishing, or live-impact action without explicit user approval.
+16. No imports, deploys, purchases, account changes, or database changes without explicit user approval.
+17. Use previews, dry-runs, diffs, and read-only validation whenever possible.
+18. Prefer reversible and additive changes over destructive changes.
+19. Prepare backups or rollback plans before risky actions.
+20. Keep backups outside the AI agent's reach.
+21. Verify once, twice, or one hundred times if risk requires it.
+22. Test, test again, and verify the result before and after every risky change.
+23. Do not rush risky work.
+24. Report what changed, what was tested, what was not tested, and what risk remains.
 
 ## User Freeze / Stop Command
 
@@ -165,6 +170,7 @@ first verify, then touch.
 Nothing happens without explicit user approval:
 no access, no changes, no deletion, no sending,
 no publishing, no live actions.
+Non-destructive by default.
 Test, test, test first. Do not rush.
 If the user says freeze or stop, stop all operations.
 ```

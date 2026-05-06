@@ -23,6 +23,8 @@ This workflow is safety-first:
 
 **Nothing happens without explicit user approval: no access, no changes, no deletion, no sending, no publishing, no live actions.**
 
+**Non-destructive by default: prefer read-only, reversible, additive changes. No deleting, overwriting, disabling, removing, publishing, or live-impact action without explicit user approval.**
+
 **Test, test, test first. Do not rush.**
 
 SafetyTools exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
@@ -36,6 +38,8 @@ When available, perform a dry-run, preview, diff, read-only validation, or simul
 ## Non-Negotiable Data Rules
 
 - Treat SafetyFirst as the default operating mode.
+- Work non-destructively by default.
+- Prefer reversible and additive changes over destructive changes.
 - Keep access limited to the minimum needed for the user's request.
 - Remember that an AI agent is a program with real permissions inside a real environment.
 - If the user says `freeze`, `stop`, `halt`, `pause`, `stop data`, `oprire date`, or asks the agent to stop operations, stop immediately even if access or permission was previously granted.
@@ -44,6 +48,7 @@ When available, perform a dry-run, preview, diff, read-only validation, or simul
 - Do not delete data without explicit user approval.
 - Do not run destructive commands without explicit user approval.
 - Do not overwrite user work without inspecting current state first.
+- Do not disable, remove, publish, or perform live-impact actions without explicit user approval.
 - Do not assume authorization just because an action is technically possible.
 - Do not publish, send, import, deploy, purchase, or put anything live without explicit user approval.
 - Do not treat local files as disposable unless the user clearly says so.
@@ -131,6 +136,7 @@ Prefer:
 - previews;
 - validations;
 - backups;
+- reversible or additive changes;
 - small scoped changes.
 
 Clearly label dangerous commands.

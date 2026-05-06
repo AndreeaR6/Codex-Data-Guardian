@@ -36,6 +36,8 @@ The rules are meant for every AI agent. The plugin format included here is for C
 
 **Nothing happens without explicit user approval: no access, no changes, no deletion, no sending, no publishing, no live actions.**
 
+**Non-destructive by default: prefer read-only, reversible, additive changes. No deleting, overwriting, disabling, removing, publishing, or live-impact action without explicit user approval.**
+
 **Test, test, test first. Do not rush.**
 
 ## What We Want To Avoid
@@ -54,6 +56,7 @@ Production data and backups should not be reachable by an AI agent without stric
 
 - First verify, then touch.
 - SafetyFirst is the default.
+- Non-destructive by default.
 - Capability is not consent.
 - User freeze overrides capability and prior permission.
 - Keep access limited to the minimum needed.
@@ -117,6 +120,7 @@ SafetyFirst: first verify, then touch.
 Nothing happens without explicit user approval:
 no access, no changes, no deletion, no sending,
 no publishing, no live actions.
+Non-destructive by default.
 If I say freeze or stop, stop all operations immediately.
 Test, test, test first. Do not rush.
 ```
