@@ -1,6 +1,6 @@
-# SafetyFirst For AI Agents
+# SafetyTools For AI Agents
 
-SafetyFirst is a public safety rule set for AI agents and AI-assisted tools.
+SafetyTools for AI Agents is a public safety rule set for AI agents and AI-assisted tools.
 
 It is meant for:
 
@@ -24,7 +24,7 @@ It is meant for:
 
 ## What We Want To Avoid
 
-SafetyFirst exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
+SafetyTools exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
 
 A public cautionary thread that motivated this work:
 
@@ -160,7 +160,7 @@ The agent should report:
 ## Short Version
 
 ```text
-SafetyFirst for AI Agents:
+SafetyTools for AI Agents:
 first verify, then touch.
 Nothing happens without explicit user approval:
 no access, no changes, no deletion, no sending,

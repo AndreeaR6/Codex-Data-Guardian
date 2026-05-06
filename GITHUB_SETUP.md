@@ -1,24 +1,31 @@
 # GitHub Setup
 
-Target public repository:
+Target public project:
 
-https://github.com/AndreeaR6/Codex-Data-Guardian
+SafetyTools for AI Agents
+
+Public repository:
+
+https://github.com/AndreeaR6/SafetyTools-for-AI-Agents
 
 ## Current Status
 
-The target public repository exists:
+The public repository exists and must contain only SafetyTools for AI Agents:
 
-https://github.com/AndreeaR6/Codex-Data-Guardian
+https://github.com/AndreeaR6/SafetyTools-for-AI-Agents
 
-Do not publish this package into another repository with a different name.
+Recommended repository slug:
+
+`SafetyTools-for-AI-Agents`
 
 Do not publish or upload private continuity files.
+Do not publish private local paths, usernames, email addresses, client names, credentials, tokens, private repository names, or internal project notes.
 
 ## Safe Manual Setup
 
 1. Create a new public repository on GitHub named:
 
-   `Codex-Data-Guardian`
+   `SafetyTools-for-AI-Agents`
 
 2. Keep it empty at creation time if possible:
 
@@ -26,14 +33,10 @@ Do not publish or upload private continuity files.
    - no generated license;
    - no generated `.gitignore`.
 
-3. From this local folder:
-
-   `C:\Users\User1\Downloads\codex-data-guardian-public`
-
-   add the remote:
+3. From the local project folder, add the remote:
 
    ```powershell
-   git remote add origin https://github.com/AndreeaR6/Codex-Data-Guardian.git
+   git remote add origin https://github.com/AndreeaR6/SafetyTools-for-AI-Agents.git
    ```
 
 4. Verify the remote:
@@ -61,13 +64,13 @@ rg -n "<private-project-name>|<personal-email>|<client-name>|<credential>|<token
 Expected result:
 
 - clean `main` branch;
-- only Codex Data Guardian commits;
-- no private terms, email addresses, client names, or unrelated project data.
+- only SafetyTools for AI Agents commits;
+- no private paths, email addresses, client names, credentials, tokens, or unrelated project data.
 
 ## Confirmation
 
 Use an explicit confirmation before publishing:
 
 ```text
-I confirm: publish only codex-data-guardian to the public repository AndreeaR6/Codex-Data-Guardian.
+I confirm: publish only SafetyTools for AI Agents to the public repository AndreeaR6/SafetyTools-for-AI-Agents.
 ```

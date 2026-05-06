@@ -1,14 +1,14 @@
 {
-  "name": "codex-data-guardian",
+  "name": "safetytools-for-ai-agents",
   "interface": {
-    "displayName": "SafetyFirst AI Agents"
+    "displayName": "SafetyTools for AI Agents"
   },
   "plugins": [
     {
-      "name": "codex-data-guardian",
+      "name": "safetytools-for-ai-agents",
       "source": {
         "source": "local",
-        "path": "./plugins/codex-data-guardian"
+        "path": "./plugins/safetytools-for-ai-agents"
       },
       "policy": {
         "installation": "AVAILABLE",

@@ -1,22 +1,22 @@
-# Codex Data Guardian
+# SafetyTools For AI Agents
 
-Codex plugin implementation for the public SafetyFirst rule set.
+Codex plugin implementation for the public SafetyTools rule set.
 
 Tagline:
 
-> SafetyFirst for AI Agents.
+> SafetyTools for AI Agents.
 
 User-facing promise:
 
 > Nothing happens without explicit user approval.
 
-Public repo target:
+Public repository:
 
-https://github.com/AndreeaR6/Codex-Data-Guardian
+https://github.com/AndreeaR6/SafetyTools-for-AI-Agents
 
 ## What This Plugin Does
 
-This is the Codex plugin implementation of a broader SafetyFirst rule set for AI agents and AI-assisted tools, including ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
+This is the Codex plugin implementation of a broader SafetyTools rule set for AI agents and AI-assisted tools, including ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
 
 An AI agent is still a program running in an environment. Be careful how it is used, what it can access, and where it is allowed to act.
 
@@ -30,7 +30,7 @@ An AI agent is still a program running in an environment. Be careful how it is u
 
 ## What We Want To Avoid
 
-SafetyFirst exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
+SafetyTools exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
 
 A public cautionary thread that motivated this work:
 
@@ -84,8 +84,19 @@ These rules are portable: use them across machines, locations, teams, and AI age
 
 This is an independent community rule set for safer AI-agent usage. It is not an official policy from OpenAI, Anthropic, Google, GitHub, Cursor, Replit, Devin, or any other vendor.
 
+## Basic Install
+
+1. On GitHub, click `Code`.
+2. Choose `Download ZIP`.
+3. Unzip the downloaded package.
+4. Copy the folder `plugins/safetytools-for-ai-agents`.
+5. Place it in the Codex plugin folder configured by your Codex app or workspace.
+6. Enable the plugin from the Codex Plugins area.
+
+Do not publish private local paths. Use a generic placeholder like `<your-codex-plugins-folder>` when writing public instructions.
+
 ## Skill
 
 See:
 
-`skills/data-guardian/SKILL.md`
+`skills/safetytools/SKILL.md`

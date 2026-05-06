@@ -1,26 +1,32 @@
-# SafetyFirst For AI Agents
+# SafetyTools For AI Agents
 
-Public safety rules for AI agents and AI-assisted tools.
+Public safety tools and rules for AI agents and AI-assisted tools.
 
 Tagline:
 
-> SafetyFirst for AI Agents.
+> SafetyTools for AI Agents.
 
 User-facing promise:
 
 > Nothing happens without explicit user approval.
 
-Public repo target:
+Core rule:
 
-https://github.com/AndreeaR6/Codex-Data-Guardian
+> SafetyFirst: first verify, then touch.
+
+This is a human-led, AI-assisted public safety resource.
+
+Public repository:
+
+https://github.com/AndreeaR6/SafetyTools-for-AI-Agents
 
 ## What This Is
 
-SafetyFirst is a public rule set for AI agents and AI-assisted tools, including ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
+SafetyTools for AI Agents is a public safety baseline for AI agents and AI-assisted tools, including ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
 
 This repository includes a concrete Codex plugin implementation:
 
-`plugins/codex-data-guardian`
+`plugins/safetytools-for-ai-agents`
 
 The rules are meant for every AI agent. The plugin format included here is for Codex.
 
@@ -34,7 +40,7 @@ The rules are meant for every AI agent. The plugin format included here is for C
 
 ## What We Want To Avoid
 
-SafetyFirst exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
+SafetyTools exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
 
 A public cautionary thread that motivated this work:
 
@@ -91,12 +97,49 @@ These rules are portable: use them across machines, locations, teams, and AI age
 
 This is an independent community rule set for safer AI-agent usage. It is not an official policy from OpenAI, Anthropic, Google, GitHub, Cursor, Replit, Devin, or any other vendor.
 
+## Simple KB Version For Any AI Agent
+
+Copy the rules into your AI tool's persistent instructions:
+
+- ChatGPT: Custom Instructions or Project Instructions.
+- Claude: Project Instructions.
+- Gemini: Saved info or custom instructions.
+- Cursor: Rules.
+- Any other agent: system rules, project rules, workspace rules, or custom instructions.
+
+For the full version, copy the rules from `SAFETYFIRST.md`.
+
+Basic prompt:
+
+```text
+Use SafetyTools for AI Agents.
+SafetyFirst: first verify, then touch.
+Nothing happens without explicit user approval:
+no access, no changes, no deletion, no sending,
+no publishing, no live actions.
+If I say freeze or stop, stop all operations immediately.
+Test, test, test first. Do not rush.
+```
+
+Keep the public instructions generic. Do not publish private local paths, usernames, email addresses, client names, tokens, credentials, private repository names, or internal project notes.
+
 ## Codex Plugin
 
 The Codex plugin implementation is here:
 
-`plugins/codex-data-guardian/`
+`plugins/safetytools-for-ai-agents/`
 
 The Codex skill is here:
 
-`plugins/codex-data-guardian/skills/data-guardian/SKILL.md`
+`plugins/safetytools-for-ai-agents/skills/safetytools/SKILL.md`
+
+Basic install flow:
+
+1. On GitHub, click `Code`.
+2. Choose `Download ZIP`.
+3. Unzip the downloaded package.
+4. Copy the folder `plugins/safetytools-for-ai-agents`.
+5. Place it in the Codex plugin folder configured by your Codex app or workspace.
+6. Enable the plugin from the Codex Plugins area.
+
+Do not put a real local computer path in public documentation. Use a generic placeholder like `<your-codex-plugins-folder>` when you need an example.

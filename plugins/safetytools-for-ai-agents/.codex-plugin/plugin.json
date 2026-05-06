@@ -1,0 +1,44 @@
+{
+  "name": "safetytools-for-ai-agents",
+  "version": "0.1.0",
+  "description": "SafetyTools for AI Agents, packaged as a Codex plugin: limited access, explicit approval, user freeze stops operations, no unapproved deletion, verification, testing, and no live changes without consent.",
+  "author": {
+    "name": "Andreea",
+    "url": "https://github.com/AndreeaR6"
+  },
+  "homepage": "https://github.com/AndreeaR6/SafetyTools-for-AI-Agents",
+  "repository": "https://github.com/AndreeaR6/SafetyTools-for-AI-Agents",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "data-safety",
+    "safetytools",
+    "ai-agents",
+    "safe-ops",
+    "no-delete",
+    "rollback"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "SafetyTools for AI Agents",
+    "shortDescription": "SafetyTools for AI Agents.",
+    "longDescription": "SafetyTools for AI Agents packages public safety rules as a Codex plugin: nothing happens without explicit user approval, including access, changes, deletion, sending, publishing, or live actions. If the user says freeze or stop, the agent stops operations even if access was already granted. Reminds users that an AI agent is a program running in an environment, that production data and backups need strict human approval gates, isolated backups, and rollback, and that risky work should be tested without rushing.",
+    "developerName": "Andreea",
+    "category": "Productivity",
+    "capabilities": [
+      "Rules",
+      "Safety",
+      "Review",
+      "AI Agents"
+    ],
+    "websiteURL": "https://github.com/AndreeaR6/SafetyTools-for-AI-Agents",
+    "privacyPolicyURL": "https://github.com/AndreeaR6/SafetyTools-for-AI-Agents",
+    "termsOfServiceURL": "https://github.com/AndreeaR6/SafetyTools-for-AI-Agents",
+    "defaultPrompt": [
+      "SafetyTools review.",
+      "Freeze. Stop all operations now.",
+      "Create a rollback plan."
+    ],
+    "brandColor": "#DC2626"
+  }
+}

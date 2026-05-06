@@ -28,6 +28,43 @@ https://x.com/lifeof_jer/status/2048103471019434248
 
 Use this repository as a portable safety baseline across machines, locations, teams, and AI agents.
 
+## Simple KB Version For Any AI Agent
+
+Copy the rules into your AI tool's persistent instructions:
+
+- ChatGPT: Custom Instructions or Project Instructions.
+- Claude: Project Instructions.
+- Gemini: Saved info or custom instructions.
+- Cursor: Rules.
+- Any other agent: system rules, project rules, workspace rules, or custom instructions.
+
+For the full version, copy the rules from `SAFETYFIRST.md`.
+
+Use this short version when you need something quick:
+
+```text
+Use SafetyTools for AI Agents.
+SafetyFirst: first verify, then touch.
+Nothing happens without explicit user approval:
+no access, no changes, no deletion, no sending,
+no publishing, no live actions.
+If I say freeze or stop, stop all operations immediately.
+Test, test, test first. Do not rush.
+```
+
+Keep it generic. Do not include private local paths, usernames, email addresses, client names, credentials, tokens, private repository names, or internal notes.
+
+## Basic Codex Plugin Install
+
+1. On GitHub, click `Code`.
+2. Choose `Download ZIP`.
+3. Unzip the downloaded package.
+4. Copy the folder `plugins/safetytools-for-ai-agents`.
+5. Place it in the Codex plugin folder configured by your Codex app or workspace.
+6. Enable the plugin from the Codex Plugins area.
+
+Use a placeholder like `<your-codex-plugins-folder>` in public docs. Do not publish a real local computer path.
+
 ## Good Prompts
 
 Use prompts that ask the agent to inspect before changing anything:

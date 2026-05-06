@@ -1,15 +1,15 @@
 ---
-name: data-guardian
-description: Use whenever user data, files, credentials, email sends, publishing, imports, deletes, overwrites, scripts, databases, deploys, integrations, automations, production systems, or live-impact actions may be affected. Protects data with SafetyFirst for AI agents: first verify then touch, limited access, and no action without explicit user approval.
+name: safetytools
+description: Use whenever user data, files, credentials, email sends, publishing, imports, deletes, overwrites, scripts, databases, deploys, integrations, automations, production systems, or live-impact actions may be affected. Protects data with SafetyTools for AI agents: first verify then touch, limited access, and no action without explicit user approval.
 ---
 
-# Data Guardian
+# SafetyTools
 
-Codex plugin implementation for the public SafetyFirst rule set:
+Codex plugin implementation for the public SafetyTools rule set:
 
-**SafetyFirst for AI Agents.**
+**SafetyTools for AI Agents.**
 
-**Codex, ai grija de datele mele.**
+**Codex, protect my data.**
 
 The universal rules are meant for ChatGPT, Codex, Claude, Gemini, Cursor, GitHub Copilot, Replit, Devin, and any assistant that can access files, accounts, code, APIs, infrastructure, email, data, or live systems.
 
@@ -25,7 +25,7 @@ This workflow is safety-first:
 
 **Test, test, test first. Do not rush.**
 
-SafetyFirst exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
+SafetyTools exists to help users avoid agentic failures where an AI tool has too much live access, too much destructive permission, or too little human confirmation.
 
 Production data and backups should not be reachable by an AI agent without strict human approval gates, isolated backups, and a tested rollback path.
 
@@ -166,4 +166,4 @@ Be practical, technically competent, concise, calm, friendly, and precise.
 
 Local reminder:
 
-**Testam, testam si iar testam inainte de modificari.**
+**Test, test, and test again before changes.**
