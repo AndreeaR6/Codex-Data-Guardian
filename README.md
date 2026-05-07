@@ -96,6 +96,12 @@ Then see:
 
 `USAGE.md`
 
+For Codex workspace instructions and Windows install notes, see:
+
+`AGENTS.md`
+
+`WINDOWS-CODEX-INSTALL.md`
+
 These rules are portable: use them across machines, locations, teams, and AI agents as a shared safety baseline.
 
 This is an independent community rule set for safer AI-agent usage. It is not an official policy from OpenAI, Anthropic, Google, GitHub, Cursor, Replit, Devin, or any other vendor.
